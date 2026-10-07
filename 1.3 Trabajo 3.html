@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abarrotes Chemono</title>
+</head>
+<body>
+    <header>
+        <h1>CHEMONO</h1>
+        <hr>
+        <h2>Ven y conoce todas las increíbles ofertas. Aquí encontrarás cualquier producto que estés buscando y claramente al MEJOR PRECIO.</h2>
+        <nav>
+            <p><strong>Navegación rápida:</strong></p>
+            <ul>
+                <li><a href="#productos">Ver Lista de Productos</a></li>
+                <li><a href="#horarios">Horarios de Atención</a></li>
+                <li><a href="#multimedia">Galería y Video</a></li>
+                <li><a href="#contacto">Contacto y Pedidos</a></li>
+                <li><a href="https://maps.google.com" target="_blank">Ver Ubicación en Google Maps</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <img src="abarrotes.jpeg" alt="Nuestra sucursal y catalogo" style="width: 600px;">
+            <h3>Nos ubicamos entre las calles: Morelos y Av. Allende #1843 CP. 32482</h3>
+        </section>
+
+        <section id="productos">
+            <h2>Catálogo de Productos</h2>
+            <ul>
+                <li><strong>Frutería y Verdura</strong>
+                    <ol>
+                        <li>Tomate -------- $18.43 kg</li>
+                        <li>Jícama -------- $20.03 kg</li>
+                        <li>Uva ----------- $40.90 kg</li>
+                        <li>Plátano ------- $13.22 kg</li>
+                        <li>Sandía -------- $10.50 kg</li>
+                        <li>Manzana Roja -- $63.98 kg</li>
+                        <li>Manzana Verde - $39.57 kg</li>
+                        <li>Pera ---------- $52.10 kg</li>
+                    </ol>
+                </li>
+                <li><strong>Cremería</strong>
+                    <ol>
+                        <li>Carne de Res ----- $164.98 kg</li>
+                        <li>Carne de Puerco --- $67.67 kg</li>
+                        <li>Chorizo ---------- $88.90 kg</li>
+                        <li>Frijoles Puercos - $50.00 kg</li>
+                        <li>Leche Entera ----- $29.89 pz</li>
+                        <li>Leche Deslactosada $31.00 pz</li>
+                        <li>Queso Amarillo --- $134.28 kg</li>
+                        <li>Queso Oaxaca ----- $201.32 kg</li>
+                        <li>Queso Americano -- $1.15 pz</li>
+                        <li>Queso Philadelphia $47.50 pz</li>
+                        <li>Salchicha Fud ---- $70.39 kg</li>
+                        <li>Jamón Fud -------- $93.67 kg</li>
+                    </ol>
+                </li>
+                <li><strong>Abarrote</strong>
+                    <ol>
+                        <li>Puré ----------- $8.60 pz</li>
+                        <li>Media Crema ---- $17.89 pz</li>
+                        <li>Cereal 400gr --- $80.00 pz</li>
+                        <li>Aceite 800ml --- $38.90 pz</li>
+                        <li>Harina de trigo - $21.81 kg</li>
+                        <li>Manteca 250gr -- $31.75 pz</li>
+                        <li>Maruchan bote -- $16.78 pz</li>
+                        <li>Maruchan Ramen - $8.01 pz</li>
+                        <li>Cátsup 200ml --- $25.64 pz</li>
+                        <li>Tostadas 800gr - $75.75 pz</li>
+                        <li>Atún Lata Aceite $21.08 pz</li>
+                        <li>Atún Lata Agua - $21.08 pz</li>
+                    </ol>
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- TABLA -->
+        <section id="horarios">
+            <h2>Horarios de Atención y Promociones</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario de Apertura</th>
+                        <th>Promoción Especial</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes a Viernes</td>
+                        <td>7:00 AM - 9:00 PM</td>
+                        <td>10% de descuento en Frutería</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>8:00 AM - 8:00 PM</td>
+                        <td>2x1 en Puré y Maruchan</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo</td>
+                        <td>8:00 AM - 3:00 PM</td>
+                        <td>Sin promoción</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- ELEMENTOS MULTIMEDIA (AUDIO Y VIDEO) -->
+        <section id="multimedia">
+            <h2>Conoce más de Abarrotes Chemono</h2>
+            
+            <h3>Comercial Promocional (Video)</h3>
+            <video controls width="500">
+                <source src="abarrotesvideo.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+
+            <h3>Sintoniza nuestro Jingle en Radio (Audio)</h3>
+            <audio controls>
+                <source src="audioabarrotes.mpeg" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </section>
+
+        <hr>
+
+        <!-- FORMULARIO -->
+        <section id="contacto">
+            <h2>Realiza tu Pedido o Contáctanos</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre completo:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
+
+                <label for="telefono">Teléfono de contacto:</label><br>
+                <input type="tel" id="telefono" name="telefono" placeholder="6681234567" required><br><br>
+
+                <label for="categoria">Categoría de interés principal:</label><br>
+                <select id="categoria" name="categoria">
+                    <option value="fruteria">Frutería y Verdura</option>
+                    <option value="cremeria">Cremería</option>
+                    <option value="abarrote">Abarrote</option>
+                </select><br><br>
+
+                <label for="pedido">Lista de productos a pedir o comentario:</label><br>
+                <textarea id="pedido" name="pedido" rows="4" cols="40" placeholder="Escribe aquí tu pedido..."></textarea><br><br>
+
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
